@@ -1,0 +1,7 @@
+
+
+body { font-family: "sv"; font-size: 18px;
+	line-height: 25px;}
+
+@media (max-width: 479px) {body {font-size: 15px;
+	line-height: 20px;} }

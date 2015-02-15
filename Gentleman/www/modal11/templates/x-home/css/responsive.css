@@ -1,0 +1,183 @@
+
+
+@import url("../warp/css/responsive.css");
+
+
+/* Breakpoints
+----------------------------------------------------------------------------------------------------*/
+
+/* All except large Screens */
+@media (max-width: 9000px) {
+	img { max-width:100%; max-height:inherit;}
+
+}
+@media (max-width: 1200px) {
+.intro { font-size: 52px; line-height: 65px; margin-bottom:5px; text-align:center;}
+/* Only Phones and Tablets (Portrait) */ }
+@media (max-width: 1150px) {
+.intro { font-size: 44px; line-height: 65px; margin-bottom:5px; text-align:center;}
+/* Only Phones and Tablets (Portrait) */ }
+@media (max-width: 1000px) {
+.intro { font-size: 40px; line-height: 65px; margin-bottom:5px; text-align:center;}
+  /* Modules */
+  #sidebar-a .grid-v:first-child > .mod-line:before,
+  #sidebar-b .grid-v:first-child > .mod-line:before { display: block; }
+.javo {background: #fff url("http://www.xgraphica.com/templates/x-home/images/ipad.jpg")}
+}
+
+/* Only Tablets (Portrait) */
+@media (min-width: 768px) and (max-width: 959px) {
+.javo {background: #fff url("http://www.xgraphica.com/templates/x-home/images/ipad.jpg")}
+}
+
+/* Only Tablets (Portrait) and Phones (Landscape) */
+@media (min-width: 480px) and (max-width: 959px) {
+
+  /* Layout */
+
+.javo {background: #fff url("http://www.xgraphica.com/templates/x-home/images/ipad.jpg")}
+  .sidebars-1 #sidebar-a:before,
+  .sidebars-1 #sidebar-b:before,
+  .sidebars-2 #sidebar-b:before { display: none; }
+
+  /* Modules */
+  .grid-h:not(.width33):nth-child(odd) > .mod-line:before { display: none; }
+
+
+  .grid-h.width25:first-child > .mod-line:before {
+    display: block;
+    top: auto;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    width: 200%;
+    padding: 0 20px;
+    border-width: 1px 0 0 0;
+  }
+  
+   #system .items .item,
+  #system .items .item:first-child {
+    margin-top: 15px;
+    padding-top: 0px;
+  }
+  
+   .intro { font-size: 32px; line-height: 65px; margin-bottom:5px; text-align:center;}
+
+}
+
+
+@media (max-width: 1000px) {
+
+
+  #search { display: none; }
+}
+
+
+
+
+/* Only Phones */
+@media (max-width: 767px) {
+.javo {background: #fff url("http://www.xgraphica.com/templates/x-home/images/iphone.jpg")}
+  #header { border-bottom-width: 0; }
+
+  #toolbar,
+  #headerbar,
+  #menubar,
+  #breadcrumbs,
+  #totop-scroller { display: none; }
+ .intro { font-size: 30px; line-height: 45px; margin-bottom:5px; text-align:center;}
+
+ 
+ 
+  
+ 
+
+
+  	#system .items > .width50 .title { font-size: 25px; line-height: 15px; }
+#system .items > .width33 .title { font-size: 20px; line-height: 10px; }
+#system .items > .width25 .title { font-size: 15px; line-height: 10px; }
+
+
+  h1 { font-size: 40px; line-height: normal;}
+  h2 { font-size: 30px; line-height: normal;}
+  h3 { font-size: 30px; line-height: 30px;}
+  h4 { font-size: 24px; line-height: 30px;}
+
+
+}
+
+/* Only Phones (Landscape) */
+@media (min-width: 480px) and (max-width: 767px) {
+
+.javo {background: #fff url("http://www.xgraphica.com/templates/x-home/images/iphone.jpg")}
+
+}
+
+/* Only Phones (Portrait) */
+@media (max-width: 479px) {
+.javo {background: #fff url("http://www.xgraphica.com/templates/x-home/images/iphone.jpg")}
+  /* Layout */
+  #sidebar-a:before,
+  #sidebar-b:before { display: none; }
+
+  /* Modules */
+  .grid-h .mod-line:before {
+    display: block;
+    top: -20px;
+    bottom: auto;
+    left: 0;
+    right: 0;
+    border-top-width: 1px;
+  }
+
+  /* System */
+  #system .items .item,
+  #system .items .item:first-child {
+    margin-top: 15px;
+    padding-top: 0px;
+  }
+  
+
+  #system .items :first-child .item:first-child {
+    margin-top: 0;
+    padding-top: 0;
+    border-width: 0;
+  }
+
+  #system .items .leading .item {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-width: 0;
+  }
+  
+  h1 { font-size: 25px; line-height: normal;}
+  h2 { font-size: 30px; line-height: normal;}
+  h3 { font-size: 30px; line-height: 30px;}
+  h4 { font-size: 24px; line-height: 30px;}
+  	#system .items > .width50 .title { font-size: 25px; line-height: 15px; }
+#system .items > .width33 .title { font-size: 25px; line-height: 10px; }
+#system .items > .width25 .title { font-size: 15px; line-height: 10px; }
+   
+
+   .intro2 { font-size: 14px; line-height: normal; padding-left:10px; padding-right:10px;}
+   
+   .intro { font-size: 25px; line-height: 38px; margin-bottom:0px; text-align:center; }
+   
+ .button-full {
+	 font-size:15px;
+}
+
+ .button-verde {
+	 font-size:15px;
+}
+
+	 
+
+.csswinner{
+
+display:none;
+
+}
+	 
+	 
+}

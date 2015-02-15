@@ -1,0 +1,264 @@
+
+
+@import url("../warp/css/tools.css");
+
+
+/* Buttons (Needed for System Markup)
+----------------------------------------------------------------------------------------------------*/
+
+/* Default */
+.button-default {
+  padding: 3px 10px;
+ 
+  background: #636363;
+  border-radius: 4px;
+  color: #fff;
+  text-shadow: 0 1px 1px #FFF;
+    transition: background 0.8s ease-in-out;
+-moz-transition:background 0.8s ease-in-out; /* Firefox 4 */
+-webkit-transition:background 0.8s ease-in-out; /* Safari and Chrome */
+-o-transition:background 0.8s ease-in-out; /* Opera */
+}
+
+.button-default:hover {
+  background: #c87f7f;
+  color: #fff;
+
+}
+
+/* Primary */
+.button-primary {
+  padding: 3px 10px;
+
+  background: #c87f7f;
+  border-radius: 4px;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+  color: #FFF;
+      transition: 0.8s ease-in-out;
+-moz-transition: 0.8s ease-in-out; /* Firefox 4 */
+-webkit-transition: 0.8s ease-in-out; /* Safari and Chrome */
+-o-transition: 0.8s ease-in-out; /* Opera */
+}
+
+.button-primary:hover {
+  background: #444;
+  color: #FFF;
+
+}
+
+.button-full {
+	max-width:100%;
+	width:auto;
+  padding: 20px;
+  text-decoration:none;
+
+  color: #fff;
+  border: 3px solid #fff;
+  text-align: center;
+
+      transition:  0.8s ease-in-out;
+-moz-transition: 0.8s ease-in-out; /* Firefox 4 */
+-webkit-transition: 0.8s ease-in-out; /* Safari and Chrome */
+-o-transition: 0.8s ease-in-out; /* Opera */
+
+
+}
+
+.button-full:hover {
+  background: #00a07e;
+  border: 3px solid #fff;
+  color: #FFF;
+
+}
+
+
+
+
+
+.button-full2 {
+	max-width:100%;
+	width:100%;
+  padding: 20px 0px;
+  background: #636363;
+  color: #fff;
+  text-align: center;
+      transition:  0.8s ease-in-out;
+-moz-transition: 0.8s ease-in-out; /* Firefox 4 */
+-webkit-transition: 0.8s ease-in-out; /* Safari and Chrome */
+-o-transition: 0.8s ease-in-out; /* Opera */
+
+
+}
+
+.button-full2:hover {
+  background: #c87f7f;
+  color: #FFF;
+
+}
+
+
+
+.button-verde {
+	max-width:90%;
+	
+  padding: 20px ;
+  background: #1a9270;
+  color: #fff;
+  border: 3px solid #fff;
+  text-align: center;
+
+      transition:  0.8s ease-in-out;
+-moz-transition: 0.8s ease-in-out; /* Firefox 4 */
+-webkit-transition: 0.8s ease-in-out; /* Safari and Chrome */
+-o-transition: 0.8s ease-in-out; /* Opera */
+
+
+}
+
+.button-verde:hover {
+  background: #075f46;
+  border: 3px solid #fff;
+  color: #FFF;
+
+}
+
+/* Images and Objects (Needed for System Markup)
+----------------------------------------------------------------------------------------------------*/
+
+img.border-box { border: 1px solid #ddd; }
+
+
+/* Lists and Tables (Needed for System Markup)
+----------------------------------------------------------------------------------------------------*/
+
+/* Line */
+ul.line > li { border-top: 1px solid #ddd; }
+ul.line > li:first-child { border: none; }
+
+/* Check */
+ul.check > li {
+  padding: 4px 0 0 30px;
+  background: url("../images/tools/list_check.png") 0 0 no-repeat;
+}
+
+ul.check2 > li {
+  padding: 0px 0 0 25px;
+  background: url("../images/tools/check.png") 0 center no-repeat;
+}
+
+/* Zebra List and Table */
+ul.zebra > li,
+table.zebra tbody td { border-bottom: 1px solid #ddd; }
+ul.zebra > li:first-child,
+table.zebra tbody tr:first-child td { border-top: 1px solid #ddd; }
+
+ul.zebra > li.odd,
+table.zebra tbody tr.odd { background: #fafafa; }
+ul.zebra > li:nth-of-type(odd),
+table.zebra tbody tr:nth-of-type(odd) { background: #fafafa; }
+
+table.zebra caption { color: #999; }
+
+
+/* Definition Lists
+----------------------------------------------------------------------------------------------------*/
+
+dl.separator dt {  
+  position: relative;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+/* border code because of RTL */
+dl.separator dd {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-width: 0 0 0 1px;
+  border-style: solid;
+  border-color: #DDD;
+}
+
+dl.separator dt:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -15px;
+  width: 30px;
+  border-top: 1px solid #DDD;
+}
+
+dl.separator dt:after {
+  content: "";
+  position:absolute;
+  top: -3px;
+  right: -3px;
+  width: 5px;
+  height: 5px;
+  background: #FFF;
+  border: 1px solid #DDD;
+  border-radius:6px;
+}
+
+dl.separator dt:first-child:before,
+dl.separator dt:first-child:after { display: none; }
+
+
+/* Text
+----------------------------------------------------------------------------------------------------*/
+
+/* Inline Text Box */
+em.box { 
+  border: 1px dotted #bbb;
+  background: #fafafa;
+  color: #444;
+}
+
+/* Dotted Horizontal Rule */
+hr.dotted { background: url("../images/tools/line_dotted.png") 0 0 repeat-x; }
+
+
+/* Boxes
+----------------------------------------------------------------------------------------------------*/
+
+.box-content {
+  background: #fafafa;
+  border: 1px solid #ddd;
+}
+
+.box-note,
+.box-info,
+.box-warning,
+.box-hint,
+.box-download {
+  background: #fafafa;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.box-info {
+  background: #ebf5fa url("../images/tools/box_info.png") 0 0 no-repeat;
+  border-color: #d2dce1;
+}
+
+.box-warning {
+  background: #fff0eb url("../images/tools/box_warning.png") 0 0 no-repeat;
+  border-color: #ffd7cd;
+}
+
+.box-hint {
+  background: #fffae6 url("../images/tools/box_hint.png") 0 0 no-repeat;
+  border-color: #fae6be;
+}
+
+.box-download {
+  background: #faffe6 url("../images/tools/box_download.png") 0 0 no-repeat;
+  border-color: #dce6be;
+}
+
+
+/* Forms (Needed for System Markup)
+----------------------------------------------------------------------------------------------------*/
+
+form.box legend { background:transparent; }
+

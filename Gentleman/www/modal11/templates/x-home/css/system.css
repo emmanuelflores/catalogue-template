@@ -1,0 +1,26 @@
+
+
+@import url("../warp/css/system.css");
+@import url("../warp/systems/joomla/css/system.css");
+@import url("system-all.css");
+
+
+/* Items (Addition)
+----------------------------------------------------------------------------------------------------*/
+ 
+#system .items .leading .item {
+  padding-bottom: 12px;
+  margin-bottom: 10px;
+}
+
+
+/* Item List
+----------------------------------------------------------------------------------------------------*/
+
+#system .item-list { border-top: 0px solid #979797; }
+
+
+/* Search
+----------------------------------------------------------------------------------------------------*/
+
+#system span.highlight { background-color: #ffffaa; }

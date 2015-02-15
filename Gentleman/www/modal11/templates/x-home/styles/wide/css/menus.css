@@ -1,0 +1,61 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url("../../../css/menus.css");
+
+
+/* Mega Drop-Down Menu
+----------------------------------------------------------------------------------------------------*/
+
+/* Level 1 */
+.menu-dropdown { margin-bottom: 20px; }
+
+.menu-dropdown li.level1 {
+	margin-right: 15px;
+	margin-left: 15px;
+	padding-bottom: 0px;
+	
+	
+}
+
+.menu-dropdown a.level1,
+.menu-dropdown span.level1 {
+	border-radius: 0px;
+	color: #bbb;
+	border:1px solid #fff; background: #fff;
+}
+
+.menu-dropdown a.level1 > span,
+.menu-dropdown span.level1 > span { padding: 0px 10px; }
+
+/* Set Hover and Active */
+.menu-dropdown li.level1:hover .level1,
+.menu-dropdown li.remain .level1{
+
+
+	color: #fff; border:1px solid #009b77; background: #009b77;
+}
+
+.menu-dropdown li.active .level1 {
+
+
+	color: #009b77; border:1px solid #009b77; background: #fff;
+}
+
+/* Level 2 */
+.menu-dropdown li.level2 { 
+  margin: 0 5px;
+  border-top: 1px solid #00a07e;
+}
+
+/* Drop-Down */
+.menu-dropdown .dropdown { top: 62px;}
+
+.menu-dropdown .dropdown,
+.menu-dropdown .dropdown-bg > div { border-radius: 0px;  }
+
+
+/* Line Menu
+----------------------------------------------------------------------------------------------------*/
+
+.menu-line li { background-image: url("../images/menu_line_item.png"); }
+

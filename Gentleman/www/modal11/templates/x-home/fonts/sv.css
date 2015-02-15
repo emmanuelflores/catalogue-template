@@ -1,0 +1,13 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@font-face {
+	font-family: 'sv';
+	src: url('SVBasicManual.eot');
+	src: url('SVBasicManual-.eot#iefix') format('embedded-opentype'),
+		 url('SVBasicManual.woff') format('woff'),
+		 url('SVBasicManual.ttf') format('truetype'),
+		 url('SVBasicManual.svg#sv') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+

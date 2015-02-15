@@ -1,0 +1,97 @@
+
+
+@import url("../warp/css/base.css");
+
+
+/* New style-related Base Values
+----------------------------------------------------------------------------------------------------*/
+
+html {background:#fff; 
+  /*-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.9), 0 0 50px rgba(0, 0, 0, 0.3) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.9), 0 0 50px rgba(0, 0, 0, 0.3) inset;
+	  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.9), 0 0 50px rgba(0, 0, 0, 0.3) inset;*/
+ 
+  
+}
+
+
+
+body {
+	min-height:800px;
+
+	position:relative;
+  font: 20px/30px;
+  font-weight: lighter;
+  font-stretch: normal;
+  line-height: 25px;
+  color: #fff;  
+
+
+  
+ /*-webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.9), 0 0 25px rgba(0, 0, 0, 0.3) inset;
+    -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.9), 0 0 25px rgba(0, 0, 0, 0.3) inset;
+	  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.9), 0 0 25px rgba(0, 0, 0, 0.3) inset;
+	  height:100% !important; */
+	  
+	
+
+
+}
+
+
+a { color: #469bdb; text-decoration:underline; 		transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out; /* Firefox 4 */
+-webkit-transition: all 0.5s ease-in-out; /* Safari and Chrome */
+-o-transition: all 0.5s ease-in-out; /* Opera */}
+
+a:hover,
+em, code { color: #1a9270; }
+
+
+a:hover {color: #1a9270; }
+
+
+
+
+
+
+
+
+ins, mark { background-color: #ffa; }
+mark { color: #444; }
+
+hr {
+display: block;
+	height: 1px;
+	padding: 0;
+	border: 0;
+	border-top: 1px solid #979797;
+
+}
+
+
+pre {
+  border: 1px solid #979797;
+  background: #fafafa;
+}
+
+sinborde { border:0px; padding: 0 !important;}
+
+::-moz-selection { background: #000; color: #fff; }
+::selection { background: #000; color: #fff; }
+
+
+
+ .csswinner{
+position:absolute;
+top:50px;
+left:0px;
+z-index:999;
+}
+.csswinner a{
+width:81px;
+height:59px;
+text-indent:-9000px;
+display:block;
+background:url("winner-black-left.png") no-repeat;
+}

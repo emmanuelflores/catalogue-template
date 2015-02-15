@@ -1,0 +1,6 @@
+Notes for Gentleman
+
+1-HTML resources need to be loaded as folder references. Need to check if css resources are loaded properly all the time
+2-Some css and html require connectivity in order to fetch on-line resources. This should be changed to local loading
+3-Modal transition might include a different animation in the future
+4-The dismiss of the modal view should take care of better gesture responsiveness

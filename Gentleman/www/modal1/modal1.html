@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        
+        <title>François Deladerrière</title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <script type="text/javascript">
+            document.documentElement.className = 'js';
+        </script>
+        
+        <link rel="stylesheet" href="reset.css" type="text/css" media="all"/>
+        <link rel="stylesheet" href="stylem1.css" type="text/css" media="all"/>
+        
+        
+        <script type="text/javascript" src="http://use.typekit.com/yrg2duc.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+        
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+        
+        <script type="text/javascript">
+            $(document).ready(function(){
+                
+                // set a background position that avoids text zone
+                // minLeft = -300, maxLeft = (screenWidth/2 -350) - 215
+                // minRight = (screenWidth/2 +80) +200, maxRight = screen.width - 400
+                
+                function randomXToY(minVal, maxVal){
+                    var randVal = minVal + (Math.random() * (maxVal - minVal));
+                    return Math.round(randVal);
+                }
+                var screenWidth = window.innerWidth ? window.innerWidth : document.body.offsetWidth;
+                var posLeft = randomXToY(-300, (screenWidth/2 -350) - 215);
+                var posRight = randomXToY((screenWidth/2 +80) +200, screenWidth -400);
+                
+                $('#body').css('background-position', Math.random() < 0.4 ? posLeft : posRight);
+                
+            });
+        </script>
+        
+        
+        
+        
+        <script type="text/javascript">
+            var c = document.cookie.split('; ');
+            var v;
+            for(var i=0;i<c.length;i++) {
+                v = c[i].split('=');
+                if (v[0]=='diagOn') {
+                    document.documentElement.className += " d ";
+                    break;                    
+                } 
+            }
+            
+        </script>
+
+        
+        
+        
+        <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        
+        
+        
+        
+    </head>
+    <body class="home" id="body">
+        
+        <div id="c-o"><div id="c-m"><div id="c-i">
+        
+        
+<header>
+    <h1>François Deladerrière</h1> 
+<!--     <h2 style="color:#000">Time ou temps</h2>
+ -->                <nav>
+                <ul>
+<!--                     <li id="li-recherches">
+                        <a></a>
+                        <ul>
+                            
+                            <li><a>l’illusion du tranquille</a></li>
+                            
+                            <li><a>des bouts du monde</a></li>
+                            
+                            <li><a href="1/3/un-mince-vernis-de-realite/index.html">un mince vernis de réalité</a></li>
+                            
+                            <li><a href="1/25/a-40/index.html">a 40</a></li>
+                            
+                            <li><a href="1/1/zones-dombre/index.html">zones d’ombre</a></li>
+                            
+                        </ul>
+                    </li> -->
+<!--                     <li id="li-commandes">
+                        <a href="commandes/index.html"></a>
+                        <ul>
+                            
+                             <li><a href="commandes/2/index.html">institutionnel</a></li>
+                            
+                             <li><a href="commandes/3/index.html">corporate</a></li>
+                            
+                        </ul>
+                    </li> -->
+<!--                     <li id="li-infos">
+                        <a href="infos/index.html"></a>
+                        <ul>
+                            
+                            <li><a href="infos/2/a-propos/index.html">à propos</a></li>
+                            
+                            <li><a href="infos/3/actualite/index.html">actualité</a></li>
+                            
+                            <li><a href="infos/4/blog/index.html">blog</a></li>
+                            
+                            <li><a href="infos/1/contact/index.html">contact</a></li>
+                            
+                        </ul>
+                    </li> -->
+                </ul>
+            </nav>
+</header>
+
+
+
+        
+<div class="focus">
+    <a >
+     
+        
+        <!-- <img src="01id.jpg" width="116" height="90" alt="Sans titre, Creuse. c-print 100x125 cm" /> --><!--232 181-->
+        <img src="watch1.jpg" width="100" height="124" alt="Sans titre, Creuse. c-print 100x125 cm" />
+     
+        
+        <img src="watch2.jpg" width="300" height="200" alt="La Caravelle, Orthez. c-print 100x125 cm" style="margin-bottom:4px"/>
+     
+        <img src="watch3.jpg" width="232" height="185" alt="Sans titre, Creuse. c-print 80x100 cm" />
+    
+    </a>
+    <p><a style="color:#000">L’illusion du tranquille</a></p>    
+</div>
+
+
+
+        
+        </div></div></div>
+        
+        
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-349106-13']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + 
+'.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>        
+    </body>
+</html>
